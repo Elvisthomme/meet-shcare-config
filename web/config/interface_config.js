@@ -216,7 +216,7 @@ var interfaceConfig = {
    */
   // APP_SCHEME: 'org.jitsi.meet',
 
-  // NATIVE_APP_NAME: 'Jitsi Meet',
+  NATIVE_APP_NAME: "ShCare Meet",
 
   /**
    * Specify Firebase dynamic link properties for the mobile apps.
@@ -259,7 +259,7 @@ var interfaceConfig = {
   // DEFAULT_LOGO_URL: 'images/watermark.svg',
 
   // Please use defaultRemoteDisplayName from config.js
-  // DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Jitster',
+  DEFAULT_REMOTE_DISPLAY_NAME: "Fellow User",
 
   // Moved to config.js as `toolbarConfig.initialTimeout`.
   // INITIAL_TOOLBAR_TIMEOUT: 20000,

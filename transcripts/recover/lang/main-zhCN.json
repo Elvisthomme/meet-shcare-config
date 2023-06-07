@@ -695,7 +695,7 @@
         "noiseSuppressionFailedTitle": "无法开启噪音抑制",
         "noiseSuppressionNoTrackDescription": "请先解除麦克风的静音。",
         "noiseSuppressionStereoDescription": "暂不支持对立体声音频开启噪音抑制。",
-        "oldElectronClientDescription1": "你似乎正在使用存在已知安全漏洞的旧版Jitsi Meet客户端，请尽快更新到最新版本!",
+        "oldElectronClientDescription1": "你似乎正在使用存在已知安全漏洞的旧版ShCare Meet客户端，请尽快更新到最新版本!",
         "oldElectronClientDescription2": "",
         "oldElectronClientDescription3": "",
         "participantWantsToJoin": "想加入会议",
