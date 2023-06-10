@@ -116,7 +116,7 @@ config.enableCalendarIntegration = false;
 
 // Prejoin page.
 if (!config.hasOwnProperty('prejoinConfig')) config.prejoinConfig = {};
-config.prejoinConfig.enabled = false;
+config.prejoinConfig.enabled = true;
 
 // Hides the participant name editing field in the prejoin screen.
 config.prejoinConfig.hideDisplayName = false;
@@ -174,7 +174,7 @@ config.testing.capScreenshareBitrate = 1;
 config.testing.octo.probability = 0;
 
 // Deep Linking
-config.disableDeepLinking = true;
+config.disableDeepLinking = false;
 
 // P2P preferred codec
 // Enable preferred video Codec
