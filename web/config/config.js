@@ -174,7 +174,7 @@ config.testing.capScreenshareBitrate = 1;
 config.testing.octo.probability = 0;
 
 // Deep Linking
-config.disableDeepLinking = false;
+config.disableDeepLinking = true;
 
 // P2P preferred codec
 // Enable preferred video Codec
