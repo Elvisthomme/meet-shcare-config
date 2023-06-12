@@ -144,16 +144,16 @@ var interfaceConfig = {
    */
   // SHARING_FEATURES: ['email', 'url', 'dial-in', 'embed'],
 
-  SHOW_BRAND_WATERMARK: false,
+  SHOW_BRAND_WATERMARK: true,
 
   /**
    * Decides whether the chrome extension banner should be rendered on the landing page and during the meeting.
    * If this is set to false, the banner will not be rendered at all. If set to true, the check for extension(s)
    * being already installed is done before rendering.
    */
-  SHOW_CHROME_EXTENSION_BANNER: false,
+  SHOW_CHROME_EXTENSION_BANNER: true,
 
-  SHOW_JITSI_WATERMARK: false,
+  SHOW_JITSI_WATERMARK: true,
   SHOW_POWERED_BY: false,
   SHOW_PROMOTIONAL_CLOSE_PAGE: false,
 
@@ -259,7 +259,7 @@ var interfaceConfig = {
   // DEFAULT_LOGO_URL: 'images/watermark.svg',
 
   // Please use defaultRemoteDisplayName from config.js
-  DEFAULT_REMOTE_DISPLAY_NAME: "Fellow User",
+  DEFAULT_REMOTE_DISPLAY_NAME: "ShCare User",
 
   // Moved to config.js as `toolbarConfig.initialTimeout`.
   // INITIAL_TOOLBAR_TIMEOUT: 20000,
