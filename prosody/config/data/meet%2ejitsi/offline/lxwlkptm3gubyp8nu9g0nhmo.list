@@ -1,0 +1,52 @@
+item({
+	{
+		"{\"type\":\"av_moderation\",\"mediaType\":\"video\",\"enabled\":true,\"actor\":\"eyjpzci6ntysimr1cmf0aw9uijowlcjzdgfmzl9pzci6mzasinbhdgllbnrfawqiojqzfq@muc.meet.jitsi/d5db3ed5\",\"room\":\"eyjpzci6ntysimr1cmf0aw9uijowlcjzdgfmzl9pzci6mzasinbhdgllbnrfawqiojqzfq@muc.meet.jitsi\"}";
+		["name"] = "json-message";
+		["attr"] = {
+			["xmlns"] = "http://jitsi.org/jitmeet";
+		};
+	};
+	{
+		["name"] = "delay";
+		["attr"] = {
+			["xmlns"] = "urn:xmpp:delay";
+			["from"] = "lxwlkptm3gubyp8nu9g0nhmo@meet.jitsi";
+			["stamp"] = "2023-09-07T12:49:12Z";
+		};
+	};
+	["name"] = "message";
+	["with"] = "";
+	["key"] = "HyoIT9Q23LM7-9qn7rBLUCiH";
+	["attr"] = {
+		["to"] = "lxwlkptm3gubyp8nu9g0nhmo@meet.jitsi/hD8fwhbODZno";
+		["stamp"] = "2023-09-07T12:50:12Z";
+		["from"] = "avmoderation.meet.jitsi";
+	};
+	["when"] = 1694091012;
+});
+item({
+	{
+		"{\"type\":\"av_moderation\",\"mediaType\":\"audio\",\"enabled\":true,\"actor\":\"eyjpzci6ntysimr1cmf0aw9uijowlcjzdgfmzl9pzci6mzasinbhdgllbnrfawqiojqzfq@muc.meet.jitsi/d5db3ed5\",\"room\":\"eyjpzci6ntysimr1cmf0aw9uijowlcjzdgfmzl9pzci6mzasinbhdgllbnrfawqiojqzfq@muc.meet.jitsi\"}";
+		["name"] = "json-message";
+		["attr"] = {
+			["xmlns"] = "http://jitsi.org/jitmeet";
+		};
+	};
+	{
+		["name"] = "delay";
+		["attr"] = {
+			["xmlns"] = "urn:xmpp:delay";
+			["from"] = "lxwlkptm3gubyp8nu9g0nhmo@meet.jitsi";
+			["stamp"] = "2023-09-07T12:49:17Z";
+		};
+	};
+	["name"] = "message";
+	["with"] = "";
+	["key"] = "Gl6pmcBY_B8berBhZ4onhNWQ";
+	["attr"] = {
+		["to"] = "lxwlkptm3gubyp8nu9g0nhmo@meet.jitsi/hD8fwhbODZno";
+		["stamp"] = "2023-09-07T12:50:12Z";
+		["from"] = "avmoderation.meet.jitsi";
+	};
+	["when"] = 1694091012;
+});

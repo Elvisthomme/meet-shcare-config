@@ -1,0 +1,39 @@
+item({
+	{
+		"Allo";
+		["name"] = "body";
+		["attr"] = {};
+	};
+	{
+		["name"] = "x";
+		["attr"] = {
+			["xmlns"] = "http://jabber.org/protocol/muc#user";
+		};
+	};
+	{
+		["name"] = "occupant-id";
+		["attr"] = {
+			["xmlns"] = "urn:xmpp:occupant-id:0";
+			["id"] = "VOF9vR7W1s4U94pl1UI1VmowJ2DohOyunQoaCUVRJ/Y=";
+		};
+	};
+	{
+		["name"] = "delay";
+		["attr"] = {
+			["xmlns"] = "urn:xmpp:delay";
+			["from"] = "sm-uw0wayddvx1d2aqgvszmo@meet.jitsi";
+			["stamp"] = "2023-09-07T12:55:51Z";
+		};
+	};
+	["name"] = "message";
+	["with"] = "";
+	["key"] = "XzpKyaICiOMtSZi6AiARoTZU";
+	["attr"] = {
+		["to"] = "sm-uw0wayddvx1d2aqgvszmo@meet.jitsi/vNZczuEyDRJK";
+		["from"] = "eyjpzci6ntysimr1cmf0aw9uijowlcjzdgfmzl9pzci6mzasinbhdgllbnrfawqiojqzfq@muc.meet.jitsi/b6d24d8d";
+		["stamp"] = "2023-09-07T12:56:52Z";
+		["xml:lang"] = "en";
+		["type"] = "chat";
+	};
+	["when"] = 1694091412;
+});

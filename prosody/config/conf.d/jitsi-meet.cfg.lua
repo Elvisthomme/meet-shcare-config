@@ -65,7 +65,14 @@ consider_websocket_secure = true;
 
 VirtualHost "meet.jitsi"
 
-    authentication = "jitsi-anonymous"
+  
+    authentication = "token"
+    app_id = "meet.shcare.fr"
+    app_secret = "vQVBHjtMY7O6BuvXKIFZeTHmrWuwvbQIcOM6n18TY9q0oUoRg45GWzL1cRxhpjQr"
+    allow_empty_token = false
+    
+    enable_domain_verification = false
+  
 
     ssl = {
         key = "/config/certs/meet.jitsi.key";
@@ -127,6 +134,11 @@ VirtualHost "meet.jitsi"
     c2s_require_encryption = false
 
 
+VirtualHost "guest.meet.jitsi"
+    authentication = "jitsi-anonymous"
+
+    c2s_require_encryption = false
+
 
 VirtualHost "auth.meet.jitsi"
     ssl = {
@@ -154,6 +166,8 @@ Component "muc.meet.jitsi" "muc"
     storage = "memory"
     modules_enabled = {
         "muc_meeting_id";
+        "token_moderation";
+        "token_verification";
         
         "polls";
         "muc_domain_mapper";

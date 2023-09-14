@@ -1,0 +1,26 @@
+item({
+	{
+		"{\"type\":\"av_moderation\",\"whitelists\":{\"video\":[\"eyjpzci6ntysimr1cmf0aw9uijowlcjzdgfmzl9pzci6mzasinbhdgllbnrfawqiojqzfq@muc.meet.jitsi/155bdbf4\"],\"audio\":[]},\"room\":\"eyjpzci6ntysimr1cmf0aw9uijowlcjzdgfmzl9pzci6mzasinbhdgllbnrfawqiojqzfq@muc.meet.jitsi\"}";
+		["name"] = "json-message";
+		["attr"] = {
+			["xmlns"] = "http://jitsi.org/jitmeet";
+		};
+	};
+	{
+		["name"] = "delay";
+		["attr"] = {
+			["xmlns"] = "urn:xmpp:delay";
+			["from"] = "vtilvahwml3qt1qq1o7jmirc@meet.jitsi";
+			["stamp"] = "2023-09-07T12:57:59Z";
+		};
+	};
+	["name"] = "message";
+	["with"] = "";
+	["key"] = "qPEhBkayZm5jVxsRNEEhfiwM";
+	["attr"] = {
+		["to"] = "vtilvahwml3qt1qq1o7jmirc@meet.jitsi/FzJcFzM_4Ecc";
+		["stamp"] = "2023-09-07T12:58:49Z";
+		["from"] = "avmoderation.meet.jitsi";
+	};
+	["when"] = 1694091529;
+});

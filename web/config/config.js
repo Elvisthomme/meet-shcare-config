@@ -15,6 +15,10 @@ if (subdomain) {
     subdomain = subdomain.substring(0,subdomain.length-1).split('.').join('_').toLowerCase() + '.';
 }
 config.hosts.muc = 'muc.' + subdomain + 'meet.jitsi';
+// When using authentication, domain for guest users.
+config.hosts.anonymousdomain = 'guest.meet.jitsi';
+// Domain for authenticated users. Defaults to <domain>.
+config.hosts.authdomain = 'meet.jitsi';
 config.bosh = '/http-bind';
 
 config.websocket = 'wss://meet.shcare.fr/' + subdir + 'xmpp-websocket';
@@ -174,7 +178,7 @@ config.testing.capScreenshareBitrate = 1;
 config.testing.octo.probability = 0;
 
 // Deep Linking
-config.disableDeepLinking = true;
+config.disableDeepLinking = false;
 
 // P2P preferred codec
 // Enable preferred video Codec
